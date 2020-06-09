@@ -1,0 +1,29 @@
+// imports
+@import 'variables';
+
+header{
+    min-height: 10vh;
+
+    .logo-container{
+        min-width: 100px;
+        width: 150px;
+        align-self: center;
+
+        img{
+            width: 100%;
+        }
+    }
+    .navbar__list{
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+
+        .navbar__item:nth-last-of-type(2){
+            padding: 0 2em;
+        }
+
+        .navbar__link{
+            color: $desaturedBlue;
+        }
+    }
+}

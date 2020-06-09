@@ -1,0 +1,41 @@
+@import 'variables';
+
+.hero--section{
+    align-items: flex-start!important;
+    padding: 5em 0 7em 0;
+
+    .side__content{
+        flex: 1;
+        align-self: center;
+        h2{
+            font-size: 50px;
+        }
+        p{
+            font-size: 25px;
+            padding: 1em 0; 
+        }
+
+        .side__content--form{
+            display: flex;
+            input#email{
+                width: 320px;
+                margin-right: 2em;
+                padding-left: 1em;
+                border: 1px solid rgba($color: $lightGray, $alpha: 1);
+            }
+
+            button{
+                padding: 1em 5em;
+                background: $brightBlue;
+                color: #fff;
+            }
+        }
+    }
+    .side__image{
+        flex: 1;
+        width: 800px;
+        img{
+            width: 100%;
+        }
+    }
+}

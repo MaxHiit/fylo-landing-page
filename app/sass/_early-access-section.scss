@@ -1,0 +1,52 @@
+// imports
+@import 'variables';
+
+.early-access--section{
+    background: $desaturedBlue;
+    min-height: 30vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .early-access__content{
+        width: 500px;
+
+        h3{
+            font-size: 35px;
+            padding-bottom: .5em;
+            font-weight: 700;
+        }
+
+        p{
+            font-size: 18px;
+            color: rgba(255, 255, 255, .8);
+        }
+    }
+
+    .early-access__form--container{
+        width: 500px
+    }
+    .early-access__form{
+        display: flex;
+        flex-direction: column;
+
+        input{
+            width: 100%;
+            padding: 1em 0;
+            padding-left: 2em;
+            border: none;
+            margin-bottom: 1em;
+            box-shadow: 0 5px 10px rgba(7, 4, 57, .5);
+            color: $desaturedBlue;
+        }
+
+        button{
+            width: 50%;
+            padding: 1em 0;
+            background: $brightBlue;
+            box-shadow: 5px 5px 5px rgba(7, 4, 57, .5);;
+            color: #fff;
+        }
+    }
+}

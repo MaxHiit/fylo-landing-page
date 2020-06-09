@@ -1,0 +1,62 @@
+// imports
+@import 'variables';
+@import 'header';
+@import 'hero-section';
+@import 'productive-section';
+@import 'early-access-section';
+@import 'footer';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    // font-family: ;
+    font-weight: 400;
+}
+
+// h2, button, .navbar{
+//     font-family: ;
+// }
+
+h2{
+    font-weight: 700;
+}
+
+button{
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input{
+    border-radius: 3px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex--rows{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.flex--cols{
+    display: flex;
+    flex-direction: column;
+}

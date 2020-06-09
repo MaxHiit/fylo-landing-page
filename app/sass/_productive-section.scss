@@ -1,0 +1,72 @@
+// imports
+@import 'variables';
+
+.productive--section{
+    background-image: url(/images/bg-curve-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+
+    .side__content{
+        flex: 1;
+        h2{
+            font-size: 45px;
+        }
+        &--text{
+            max-width: 620px;
+            p{
+                font-size: 20px;
+                padding: .5em 0;
+            }
+        }
+        .link-to-works{
+            display: inline-flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid green;
+            padding: .5em 0;
+            cursor: pointer;
+
+            a{
+                padding-right: 1em;
+                font-size: 17px;
+                color: green;
+            }
+        }
+        .testimonial-container{
+            max-width: 350px;
+            background: #fff;
+            border-radius: 5px;
+            margin-top: 2em;
+            padding: 2em;
+            box-shadow: 0 0 10px $lightGray;
+
+            .testimonial__author{
+                padding-top: 1em;
+                justify-content: inherit!important;
+                img{
+                    width: 50px;
+                    border-radius: 100%;
+                }
+
+                .author__info{
+                    padding-left: 1em;
+                    h4, p{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    .side__image{
+        flex: 1;
+        width: 800px;
+        img{
+            width: 100%;
+        }
+    }
+}
